@@ -10,4 +10,6 @@
 
 @interface SignatureViewQuartz : UIView
 
+- (void)erase;
+
 @end

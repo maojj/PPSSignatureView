@@ -60,6 +60,7 @@
 - (void)drawRect:(CGRect)rect
 {
     [[UIColor blackColor] setStroke];
+    path.lineWidth = 3;
     [path stroke];
 }
 

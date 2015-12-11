@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		200FEB431AE88B4400E7F15B /* PPSController.m in Sources */ = {isa = PBXBuildFile; fileRef = 200FEB421AE88B4400E7F15B /* PPSController.m */; };
+		200FEB461AE88CA500E7F15B /* PPSGLKVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 200FEB451AE88CA500E7F15B /* PPSGLKVC.m */; };
+		20C06BC71AE891D00074A706 /* TTHandDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C06BC61AE891D00074A706 /* TTHandDrawView.m */; };
+		20C06BCA1AE892210074A706 /* CGSize+TTUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C06BC91AE892210074A706 /* CGSize+TTUtils.m */; };
 		913A051918723FA5007E1418 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 913A051818723FA5007E1418 /* Foundation.framework */; };
 		913A051B18723FA5007E1418 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 913A051A18723FA5007E1418 /* CoreGraphics.framework */; };
 		913A051D18723FA5007E1418 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 913A051C18723FA5007E1418 /* UIKit.framework */; };
@@ -37,7 +41,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		200FEB411AE88B4400E7F15B /* PPSController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPSController.h; sourceTree = "<group>"; };
+		200FEB421AE88B4400E7F15B /* PPSController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPSController.m; sourceTree = "<group>"; };
+		200FEB441AE88CA500E7F15B /* PPSGLKVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPSGLKVC.h; sourceTree = "<group>"; };
+		200FEB451AE88CA500E7F15B /* PPSGLKVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPSGLKVC.m; sourceTree = "<group>"; };
 		2023A096B642444BAD107BE9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		20C06BC51AE891D00074A706 /* TTHandDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTHandDrawView.h; sourceTree = "<group>"; };
+		20C06BC61AE891D00074A706 /* TTHandDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTHandDrawView.m; sourceTree = "<group>"; };
+		20C06BC81AE892210074A706 /* CGSize+TTUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CGSize+TTUtils.h"; sourceTree = "<group>"; };
+		20C06BC91AE892210074A706 /* CGSize+TTUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CGSize+TTUtils.m"; sourceTree = "<group>"; };
+		348E8D8B41DA43E37D4812EF /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		3C84E9D9AF496D7CB5DB01AA /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		913A051518723FA5007E1418 /* PPSSignatureDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PPSSignatureDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		913A051818723FA5007E1418 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		913A051A18723FA5007E1418 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,7 +74,6 @@
 		913A054C18724DDE007E1418 /* SignatureViewQuartz.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignatureViewQuartz.m; sourceTree = "<group>"; };
 		913A054D18724DDE007E1418 /* SignatureViewQuartzQuadratic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignatureViewQuartzQuadratic.h; sourceTree = "<group>"; };
 		913A054E18724DDE007E1418 /* SignatureViewQuartzQuadratic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignatureViewQuartzQuadratic.m; sourceTree = "<group>"; };
-		B03250E3E95B4BE680D7BA91 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +108,7 @@
 				913A053718723FA5007E1418 /* PPSSignatureDemoTests */,
 				913A051718723FA5007E1418 /* Frameworks */,
 				913A051618723FA5007E1418 /* Products */,
-				B03250E3E95B4BE680D7BA91 /* Pods.xcconfig */,
+				B564DF8B2407D80DC5D5A6AD /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -130,6 +143,10 @@
 				913A054718724DAA007E1418 /* MainStoryboard_iPhone.storyboard */,
 				913A054818724DAA007E1418 /* MainStoryboard_iPad.storyboard */,
 				913A051F18723FA5007E1418 /* Supporting Files */,
+				200FEB411AE88B4400E7F15B /* PPSController.h */,
+				200FEB421AE88B4400E7F15B /* PPSController.m */,
+				200FEB441AE88CA500E7F15B /* PPSGLKVC.h */,
+				200FEB451AE88CA500E7F15B /* PPSGLKVC.m */,
 			);
 			path = PPSSignatureDemo;
 			sourceTree = "<group>";
@@ -170,8 +187,21 @@
 				913A054C18724DDE007E1418 /* SignatureViewQuartz.m */,
 				913A054D18724DDE007E1418 /* SignatureViewQuartzQuadratic.h */,
 				913A054E18724DDE007E1418 /* SignatureViewQuartzQuadratic.m */,
+				20C06BC51AE891D00074A706 /* TTHandDrawView.h */,
+				20C06BC61AE891D00074A706 /* TTHandDrawView.m */,
+				20C06BC81AE892210074A706 /* CGSize+TTUtils.h */,
+				20C06BC91AE892210074A706 /* CGSize+TTUtils.m */,
 			);
 			name = "Alternative Views";
+			sourceTree = "<group>";
+		};
+		B564DF8B2407D80DC5D5A6AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C84E9D9AF496D7CB5DB01AA /* Pods.debug.xcconfig */,
+				348E8D8B41DA43E37D4812EF /* Pods.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,6 +216,7 @@
 				913A051218723FA5007E1418 /* Frameworks */,
 				913A051318723FA5007E1418 /* Resources */,
 				8CCE556E918545FDA19C23EE /* Copy Pods Resources */,
+				5D18BC0B0779A6622330F430 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -224,6 +255,9 @@
 				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = "Jason Harwig";
 				TargetAttributes = {
+					913A051418723FA5007E1418 = {
+						DevelopmentTeam = 29QXUV376B;
+					};
 					913A052F18723FA5007E1418 = {
 						TestTargetID = 913A051418723FA5007E1418;
 					};
@@ -285,6 +319,21 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		5D18BC0B0779A6622330F430 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		8CCE556E918545FDA19C23EE /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -297,7 +346,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -308,6 +357,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				913A055018724DDE007E1418 /* SignatureViewQuartzQuadratic.m in Sources */,
+				20C06BC71AE891D00074A706 /* TTHandDrawView.m in Sources */,
+				200FEB461AE88CA500E7F15B /* PPSGLKVC.m in Sources */,
+				200FEB431AE88B4400E7F15B /* PPSController.m in Sources */,
+				20C06BCA1AE892210074A706 /* CGSize+TTUtils.m in Sources */,
 				913A052918723FA5007E1418 /* PPSAppDelegate.m in Sources */,
 				913A054F18724DDE007E1418 /* SignatureViewQuartz.m in Sources */,
 				913A052518723FA5007E1418 /* main.m in Sources */,
@@ -426,10 +479,11 @@
 		};
 		913A054218723FA5007E1418 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B03250E3E95B4BE680D7BA91 /* Pods.xcconfig */;
+			baseConfigurationReference = 3C84E9D9AF496D7CB5DB01AA /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PPSSignatureDemo/PPSSignatureDemo-Prefix.pch";
 				INFOPLIST_FILE = "PPSSignatureDemo/PPSSignatureDemo-Info.plist";
@@ -441,10 +495,11 @@
 		};
 		913A054318723FA5007E1418 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B03250E3E95B4BE680D7BA91 /* Pods.xcconfig */;
+			baseConfigurationReference = 348E8D8B41DA43E37D4812EF /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PPSSignatureDemo/PPSSignatureDemo-Prefix.pch";
 				INFOPLIST_FILE = "PPSSignatureDemo/PPSSignatureDemo-Info.plist";

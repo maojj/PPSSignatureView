@@ -71,6 +71,7 @@ static CGPoint midpoint(CGPoint p0, CGPoint p1) {
 - (void)drawRect:(CGRect)rect
 {
     [[UIColor blackColor] setStroke];
+    path.lineWidth = 3.f;
     [path stroke];
 }
 
